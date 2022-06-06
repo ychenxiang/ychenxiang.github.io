@@ -1,3 +1,3 @@
 # [Please visit my homepage](https://ychenxiang.github.io/)
 
-# This is a my profile
+# WISH YOU A GOOD LIFE
