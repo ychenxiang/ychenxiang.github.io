@@ -1,3 +1,3 @@
-# ychenxiang.github.io[Markdown Live Preview](https://ychenxiang.github.io/)
+# [Please visit my homepage](https://ychenxiang.github.io/)
 
 # This is a my profile
