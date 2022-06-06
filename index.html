@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+	<head>
+		<title>This is the title</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="mystyle.css"></link>
+	</head>
+	<body>
+		<!--
+		
+		在.line1中更換標題字體類型
+		
+		將.line1背景改成漸層色
+		
+		div依據基數、偶數來調整不同背景顏色
+		
+		當滑鼠移到div上方，變換背景色
+		
+		點擊超連結時，移到上方、點擊、點擊過、未點擊過有不同顏色
+		
+		變更圖片長寬及radius
+		
+		當滑鼠移到照片透明度提高
+		
+		-->
+		
+		<h1 class="line1">MY Profile</h1>
+		<hr color="grey" size="10">
+		
+		<div>
+			<h2>姓名</h2>
+			<p>阿呦威</p>
+			<br>
+		</div>
+		
+		<div>
+			<h2>年齡</h2>
+			<p id="click">我的年紀 <span style="background-color:#FFFFAA; color:#005AB5">噓~</span></p>
+			<button type="button" onclick="myFunction()">不要點我啦</button>
+			<br>
+			<br>
+		</div>
+		
+		<div>
+			<h2>最喜歡的食物</h2>
+				<ul>
+					<li>巧克力</li>
+					<li>抹茶</span></li>
+					<li>炸雞</li>
+					<br>
+				</ul>
+		</div>
+		
+		<div>
+			<h2>最喜歡聽的歌</h2>
+				<ol>
+					<li><a href="https://www.youtube.com/watch?v=c86t8hoVw8E&ab_channel=%E8%94%A1%E4%BE%9D%E6%9E%97JolinTsai" target="_blank">呸 BY Jolin</a></li>
+					<li><a href="https://www.youtube.com/watch?v=NAODcPQcy9U&ab_channel=%E6%84%9B%E8%B2%9D%E5%85%8B%E6%80%9Davextaiwan" target="_blank">愛你 BY Cindy</a></li>
+					<li><a href="https://www.youtube.com/watch?v=8urFHH4lPUg&ab_channel=%E5%91%A8%E6%B9%AF%E8%B1%AANICKTHEREAL" target="_blank">愛上你算我賤 BY Nickthereal</a></li>
+					<br>
+				</ol>
+			</h2>	
+		</div>
+		
+		<div>
+			<h2>人生願望清單</h2>
+			<img class="style1" src="shoes.png" alt="shoes">
+			<p>當個<em><strong>鞋餓分子</strong></em></p>
+			<br>
+			
+			<img class="style2" src="concert.jpg" alt="Ugly Beauty concert">
+			<p>再去一次Ugly Beauty演唱會</p>
+			<br>
+		</div>
+		
+		<script>
+			function myFunction() {
+				document.getElementById("click").innerHTML = "還是不告訴你";
+			}
+			
+			onload=showmsg();
+			function showmsg() {
+				alert('前方高能請注意');
+			}
+		</script>
+		
+	</body>
+</html>
